@@ -3,7 +3,7 @@
 #include <vector>
 
 class min_converter{
-    int total;
+        int total;
     public:
         min_converter(int min);
         ~min_converter();
