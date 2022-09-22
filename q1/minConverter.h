@@ -3,11 +3,11 @@
 #include <vector>
 
 class min_converter{
-        int total;
-    public:
-        min_converter(int min);
-        ~min_converter();
-        int get_total();
+    int total;
+public:
+    min_converter(int min);
+    ~min_converter();
+    int get_total();
 };
 
 #endif
