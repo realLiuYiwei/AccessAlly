@@ -2,7 +2,7 @@ blood = [int(i) for i in input().split()]
 patients = [int(i) for i in input().split()]
 
 total = 0
-for i in range(0, 8):
+for i in range(0, 7):
     mini = min(blood[i], patients[i])
     blood[i] = blood[i] - mini
     patients[i] = patients[i] - mini
